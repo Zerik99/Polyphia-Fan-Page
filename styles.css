@@ -1,7 +1,13 @@
 * {
   box-sizing: border-box;
-  font-family: Georgia;
-  color: #777;
+  font-family: Tahoma;
+  color: cadetblue;
+}
+@font-face {
+  font-family: "gotique";
+  src: url(Fonts/gotique/Gotique.ttf);
+  font-style: normal;
+  font-weight: normal;
 }
 
 .main-header {
@@ -44,5 +50,28 @@ body {
   text-align: center;
   margin: 0;
   font-size: 4em;
-  font-family: Impact;
+  font-family: "gotique";
+  font-weight: normal;
+}
+
+.band-name-large {
+  text-align: center;
+  margin: 0;
+  font-size: 9em;
+  font-family: "gotique";
+  font-weight: normal;
+}
+
+.content-section {
+  margin: 1em;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.section-header {
+  font-family: "gotique";
+  font-weight: normal;
+  font-size: 2.5em;
 }
