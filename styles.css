@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia;
+  color: #777;
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url(Images/headerimage2.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block;
+  padding: 2em;
+  color: white;
+  text-decoration: none;
+}
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.band-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: Impact;
+}
