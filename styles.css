@@ -21,6 +21,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: ;
 }
 .nav ul {
   margin: 0;
@@ -32,7 +33,7 @@ body {
 .nav a {
   display: inline-block;
   padding: 2em;
-  color: white;
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 .nav a:hover {
@@ -47,8 +48,8 @@ body {
 }
 
 .band-name {
-  text-align: center;
-  margin: 0;
+  text-align: left;
+  margin-left: 1em;
   font-size: 4em;
   font-family: "gotique";
   font-weight: normal;
@@ -74,4 +75,32 @@ body {
   font-family: "gotique";
   font-weight: normal;
   font-size: 2.5em;
+  margin-left: 1.25em;
+}
+
+.band-image {
+  float: left;
+  margin: 15px;
+  border-radius: 40%;
+  width: 200px;
+}
+.main-footer {
+  background-color: rgb(112, 0, 65);
+}
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+  border-radius: 35%;
 }
