@@ -44,7 +44,7 @@ body {
   text-align: center;
   font-size: 1.1em;
   font-weight: lighter;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border: 5px solid rgba(255, 255, 255, 0.3);
 }
 
 .band-name {
@@ -104,4 +104,43 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 35%;
+}
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.67em;
+  cursor: pointer;
+}
+
+.btn-header {
+  color: white;
+  border: 2px solid cadetblue;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.btn-header:hover {
+  background-color: rgba(19, 3, 3, 0.5);
+}
+.btn-play {
+  display: block;
+  margin: 15px auto;
+  height: 50px;
+  width: 150px;
+  padding: 0;
+}
+.tour-row {
+  border-bottom: 2px solid black;
+  padding-bottom: 2 em;
+}
+.tour-item {
+  display: inline-block;
+  padding-right: 0.5em;
+}
+.tour-date {
+  font-weight: bolder;
+  width: 15%;
 }
