@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: Tahoma;
-  color: cadetblue;
+  color: black;
 }
 @font-face {
   font-family: "gotique";
@@ -21,7 +21,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: ;
+  background-color: cadetblue;
 }
 .nav ul {
   margin: 0;
@@ -57,6 +57,7 @@ body {
 
 .band-name-large {
   text-align: center;
+  color: cadetblue;
   margin: 0;
   font-size: 9em;
   font-family: "gotique";
