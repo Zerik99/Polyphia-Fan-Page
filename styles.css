@@ -23,6 +23,7 @@ body {
   padding: 0;
   background-color: cadetblue;
 }
+
 .nav ul {
   margin: 0;
 }
@@ -177,4 +178,41 @@ body {
   background-color: rgba(255, 255, 255, 0.85);
   max-width: 19%;
   margin-bottom: 1em;
+}
+
+.shop-item {
+  margin: 30px;
+}
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+.shop-item-image {
+  height: 250px;
+  width: 250px;
+  border-radius: 0.4em;
+  border: 5px solid rgb(112, 0, 65);
+}
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.shop-item-price {
+  flex-grow: 1;
+}
+.shop-item-btn {
+  max-width: fit-content;
+}
+.shop-item-btn:hover {
+  max-width: fit-content;
+}
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
