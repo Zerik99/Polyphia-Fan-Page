@@ -87,6 +87,9 @@ body {
   margin: 15px;
   border-radius: 30px;
   width: 200px;
+  height: auto;
+  background: rgb(112, 0, 65);
+  border: 5px solid rgb(112, 0, 65);
 }
 .main-footer {
   background-color: rgb(112, 0, 65);
@@ -207,6 +210,7 @@ body {
   width: 250px;
   border-radius: 0.4em;
   border: 5px solid rgb(112, 0, 65);
+  background: rgb(112, 0, 65);
 }
 .shop-item-details {
   display: flex;
