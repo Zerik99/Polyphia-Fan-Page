@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="store.js" async></script>
     <title>Plyphia Fan Page | STORE</title>
   </head>
 
@@ -107,39 +108,45 @@
     </section>
     <section class="container content-section">
       <h2 class="section-header">Cart</h2>
-      <div>
-        <strong>ITEM</strong>
-        &lt;&gt;
-        <strong>PRICE</strong>
-        &lt;&gt;
-        <strong>QUANTITY</strong>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-item cart-header cart-column">PRICE</span>
+        <span class="cart-item cart-header cart-column">QUANTITY</span>
       </div>
-      <div>
-        <img class="shop-item-image" src="Images/TshirtOne.jfif" width="100" />
-        <span>T-shirt</span>
-        &lt;&gt;
-        <span>19.99</span>
-        &lt;&gt;
-        <input type="number" value="1" />
-        <button type="button">REMOVE</button>
+
+      <container class="cart-items">
+        <!--
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img class="cart-item-image" src="Images/TshirtOne.jfif" />
+            <span class="cart-item-title">T-shirt</span>
+          </div>
+          <span class="cart-price cart-column">$19.99</span>
+          <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="2" />
+            <button class="btn btn-danger" type="button">REMOVE</button>
+          </div>
+        </div>
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img class="cart-item-image" src="Images/AlbumTwo.jfif" />
+            <span class="cart-item-title">Album 2</span>
+          </div>
+          <span class="cart-price cart-column">12.99</span>
+          <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="1" />
+            <button class="btn btn-danger" type="button">REMOVE</button>
+          </div>
+        </div>
+        -->
+      </container>
+
+      <div class="cart-total">
+        <strong class="cart-total-title">TOTAL</strong>
+        <span class="cart-total-price">$0.00</span>
       </div>
-      <div>
-        <img class="shop-item-image" src="Images/AlbumTwo.jfif" width="100" />
-        <span>Album 2</span>
-        &lt;&gt;
-        <span>12.99</span>
-        &lt;&gt;
-        <input type="number" value="2" />
-        <button type="button">REMOVE</button>
-      </div>
-      <hr />
-      <div>
-        <strong>TOTAL</strong>
-        <span>$32.98</span>
-      </div>
-      <div>
-        <button type="button">Purchase</button>
-      </div>
+
+      <button class="btn tour-btn btn-purchase" type="button">Purchase</button>
     </section>
     <footer class="main-footer">
       <div class="container main-footer-container">
